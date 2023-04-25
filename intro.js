@@ -14,6 +14,10 @@ let cardsEl = document.getElementById("cards-el")
 console.log(sumEl)
 
 function startGame(){
+    renderGame()
+}
+
+function renderGame(){
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard 
 
 sumEl.textContent = "Sum: " + sum
@@ -34,13 +38,9 @@ else{
 messageEl.textContent = message
 }
 function newCard(){
-
     let card = 7
     sum+= card
-    startGame()
-
-    console.log("Draw a new card from the deck") 
-
+    renderGame()
 }
 
 //Cash Out 
