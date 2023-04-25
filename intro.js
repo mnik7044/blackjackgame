@@ -33,5 +33,11 @@ else{
 }
 messageEl.textContent = message
 }
+function newCard(){
+
+    console.log()
+    
+}
+
 //Cash Out 
 
