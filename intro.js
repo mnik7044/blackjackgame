@@ -9,9 +9,12 @@ let messageEl = document.getElementById("message-el")
 
 let sumEl = document.getElementById("sum-el")
 
+let cardsEl = document.getElementById("cards-el")
+
 console.log(sumEl)
 
 function startGame(){
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard 
 
 sumEl.textContent = "Sum: " + sum
 if(sum<=20)
