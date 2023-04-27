@@ -2,6 +2,10 @@
 
 This is a simple implementation of the classic card game Blackjack using Javascript. 
 
+## Visit the game 
+
+https://mnik7044.github.io/blackjackgame/
+
 ## How to Play
 
 The objective of the game is to beat the dealer's hand without going over 21. Each player is dealt two cards and then has the option to "new card" for additional cards. The dealer must draw cards until their hand totals 17 or more.
